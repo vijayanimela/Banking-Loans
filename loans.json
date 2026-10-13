@@ -1,0 +1,47 @@
+[
+    {
+        "loan_id": 1001,
+        "name": "vijay",
+        "salary": 100000,
+        "loan_amount": 1000000,
+        "emi": 10000,
+        "tenure": 0,
+        "balance": 0,
+        "status": "Cleared",
+        "next_due": "01-02-2026",
+        "history": [
+            {
+                "date": "01-12-2025",
+                "amount": 10000
+            },
+            {
+                "date": "01-01-2026",
+                "amount": 10000
+            },
+            {
+                "date": "10-01-2026",
+                "amount": 80000
+            },
+            {
+                "date": "10-02-2026",
+                "amount": 90000
+            },
+            {
+                "date": "20-02-2026",
+                "amount": 810000
+            }
+        ]
+    },
+    {
+        "loan_id": 1002,
+        "name": "chandu",
+        "salary": 70000,
+        "loan_amount": 700000,
+        "emi": 7000,
+        "tenure": 100,
+        "balance": 700000,
+        "status": "Ongoing",
+        "next_due": "01-11-2026",
+        "history": []
+    }
+]
